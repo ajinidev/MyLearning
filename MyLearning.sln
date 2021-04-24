@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataStructureAndAlgorithm", "DataStructureAndAlgorithm\DataStructureAndAlgorithm.vcxproj", "{E7FD96AC-7689-47AD-BD90-280B6F2388BD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataStructureAndAlgorithmTest", "DataStructureAndAlgorithmTest\DataStructureAndAlgorithmTest.vcxproj", "{E7FD96AC-7689-47AD-BD90-280B6F2388BD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataStructureAndAlgorithm", "DataStructureAndAlgorithm\DataStructureAndAlgorithm.vcxproj", "{14EC2BDC-79C9-42A1-AD5C-B40938D12998}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{E7FD96AC-7689-47AD-BD90-280B6F2388BD}.Release|x64.Build.0 = Release|x64
 		{E7FD96AC-7689-47AD-BD90-280B6F2388BD}.Release|x86.ActiveCfg = Release|Win32
 		{E7FD96AC-7689-47AD-BD90-280B6F2388BD}.Release|x86.Build.0 = Release|Win32
+		{14EC2BDC-79C9-42A1-AD5C-B40938D12998}.Debug|x64.ActiveCfg = Debug|x64
+		{14EC2BDC-79C9-42A1-AD5C-B40938D12998}.Debug|x64.Build.0 = Debug|x64
+		{14EC2BDC-79C9-42A1-AD5C-B40938D12998}.Debug|x86.ActiveCfg = Debug|Win32
+		{14EC2BDC-79C9-42A1-AD5C-B40938D12998}.Debug|x86.Build.0 = Debug|Win32
+		{14EC2BDC-79C9-42A1-AD5C-B40938D12998}.Release|x64.ActiveCfg = Release|x64
+		{14EC2BDC-79C9-42A1-AD5C-B40938D12998}.Release|x64.Build.0 = Release|x64
+		{14EC2BDC-79C9-42A1-AD5C-B40938D12998}.Release|x86.ActiveCfg = Release|Win32
+		{14EC2BDC-79C9-42A1-AD5C-B40938D12998}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

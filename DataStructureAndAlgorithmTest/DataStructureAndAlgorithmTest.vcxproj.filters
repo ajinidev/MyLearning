@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="BracketSymmetryProblem.h">
+      <Filter>UnitTests\Stack\Problems</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="ArrayTest.h">
+      <Filter>UnitTests\Arrays</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedListTest.h">
+      <Filter>UnitTests\LinkedLists</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleLinkedListTest.h">
+      <Filter>UnitTests\LinkedLists</Filter>
+    </ClInclude>
+    <ClInclude Include="StackTest.h">
+      <Filter>UnitTests\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="BracketSymmetryProblemTest.h">
+      <Filter>UnitTests\Stack\Problems</Filter>
+    </ClInclude>
+    <ClInclude Include="StackWithLinkedListTest.h">
+      <Filter>UnitTests\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="StackWithDoubleLinkedListTest.h">
+      <Filter>UnitTests\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueTest.h">
+      <Filter>UnitTests\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueWithDoubleLinkedListTest.h">
+      <Filter>UnitTests\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueWithLinkedListTest.h">
+      <Filter>UnitTests\Queue</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="UnitTests">
+      <UniqueIdentifier>{d9e72bc0-5dbc-42fe-9fd3-72e0967ab2b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\BigO">
+      <UniqueIdentifier>{76c5f9f7-4ab2-4d43-9d3e-4145fc13db34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\Arrays">
+      <UniqueIdentifier>{e4a04551-f2e4-4627-b92e-d6da843d6ec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\LinkedLists">
+      <UniqueIdentifier>{889e1259-8675-43f8-ab56-e64e2f035b4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\Stack">
+      <UniqueIdentifier>{57e6181d-6399-4056-a76b-ea51161c0df9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\Stack\Problems">
+      <UniqueIdentifier>{171914dd-4fac-4358-b0d1-a50b0003e1de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\Queue">
+      <UniqueIdentifier>{2fa5e52a-27a6-40ef-88fb-4de4bc2b568f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Notes.txt">
+      <Filter>UnitTests\BigO</Filter>
+    </Text>
+    <Text Include="Arrays\Static\Notes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

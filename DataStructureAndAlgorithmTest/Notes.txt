@@ -1,0 +1,14 @@
+Big O properties
+O(1)		- Fixed time
+O(n)		- Linear function.
+O(n^2)		- Loop inside loop.
+O(log(n))	- BSTs
+
+
+
+- Sorting and accessing sequential data
+- temporarly storing objects.
+- used by IO routines buffers
+- Lookup tables and inverse lookup tables
+- to return multiple values from a function
+- Used in dynamic programming to cache answers to subproblems.
