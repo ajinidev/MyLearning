@@ -148,6 +148,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Lib\Array.h" />
+    <ClInclude Include="Lib\CircularQueue.h" />
     <ClInclude Include="Lib\DoubleLinkedList.h" />
     <ClInclude Include="Lib\LinkedList.h" />
     <ClInclude Include="Lib\Queue.h" />

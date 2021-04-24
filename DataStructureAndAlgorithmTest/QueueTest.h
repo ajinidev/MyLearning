@@ -3,3 +3,4 @@
 
 #include "QueueWithLinkedListTest.h"
 #include "QueueWithDoubleLinkedListTest.h"
+#include "CircularQueueTest.h"

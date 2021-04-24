@@ -36,6 +36,7 @@
   <ItemGroup>
     <ClInclude Include="ArrayTest.h" />
     <ClInclude Include="BracketSymmetryProblemTest.h" />
+    <ClInclude Include="CircularQueueTest.h" />
     <ClInclude Include="DoubleLinkedListTest.h" />
     <ClInclude Include="LinkedListTest.h" />
     <ClInclude Include="pch.h" />

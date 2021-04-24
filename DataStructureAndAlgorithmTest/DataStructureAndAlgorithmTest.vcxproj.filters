@@ -39,6 +39,9 @@
     <ClInclude Include="QueueWithLinkedListTest.h">
       <Filter>UnitTests\Queue</Filter>
     </ClInclude>
+    <ClInclude Include="CircularQueueTest.h">
+      <Filter>UnitTests\Queue</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="UnitTests">
