@@ -45,6 +45,9 @@
     <ClInclude Include="DequeTest.h">
       <Filter>UnitTests\Queue</Filter>
     </ClInclude>
+    <ClInclude Include="BinarySearchTreeTest.h">
+      <Filter>UnitTests\Tree</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="UnitTests">
@@ -67,6 +70,9 @@
     </Filter>
     <Filter Include="UnitTests\Queue">
       <UniqueIdentifier>{2fa5e52a-27a6-40ef-88fb-4de4bc2b568f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\Tree">
+      <UniqueIdentifier>{fae45cb7-cb16-4b07-a345-9a9fd1ae1c83}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

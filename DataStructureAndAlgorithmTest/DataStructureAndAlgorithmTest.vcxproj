@@ -35,6 +35,7 @@
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
     <ClInclude Include="ArrayTest.h" />
+    <ClInclude Include="BinarySearchTreeTest.h" />
     <ClInclude Include="BracketSymmetryProblemTest.h" />
     <ClInclude Include="CircularQueueTest.h" />
     <ClInclude Include="DequeTest.h" />

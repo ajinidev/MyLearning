@@ -5,3 +5,4 @@
 #include "DoubleLinkedListTest.h"
 #include "StackTest.h"
 #include "QueueTest.h"
+#include "BinarySearchTreeTest.h"

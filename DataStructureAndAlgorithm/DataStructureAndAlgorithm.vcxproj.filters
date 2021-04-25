@@ -45,6 +45,9 @@
     <ClInclude Include="Lib\Deque.h">
       <Filter>Lib</Filter>
     </ClInclude>
+    <ClInclude Include="Lib\BinarySearchTree.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
