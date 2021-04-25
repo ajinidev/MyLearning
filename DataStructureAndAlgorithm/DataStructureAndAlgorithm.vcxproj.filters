@@ -42,6 +42,9 @@
     <ClInclude Include="Lib\CircularQueue.h">
       <Filter>Lib</Filter>
     </ClInclude>
+    <ClInclude Include="Lib\Deque.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
