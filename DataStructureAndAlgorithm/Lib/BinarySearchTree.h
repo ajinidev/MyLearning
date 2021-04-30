@@ -48,12 +48,33 @@ private:
     Node* mRoot = nullptr;
 public:
 
+    BinarySearchTree() {
+        mRoot = nullptr;
+    }
+
+    ~BinarySearchTree() {
+        clear();
+    }
+
     void insert(T data) {
         mRoot = insert(mRoot, data);
     }
 
     void remove(T data) {
         mRoot = remove(mRoot, data);
+    }
+
+    bool isEmpty() {
+        return mRoot == nullptr;
+    }
+
+    bool contains(T data) {
+        return contains(data, mRoot);
+    }
+
+    void clear() {
+        clear(mRoot);
+        mRoot = nullptr;
     }
 
     std::string preorder(std::function<std::string(T)> to_string) {
@@ -83,6 +104,56 @@ private:
             root->right = insert(root->right, data);
         }
         return balance(root);
+    }
+
+    Node* remove(Node* root, T data) {
+        if (root == nullptr)
+            return nullptr;
+
+        if (data < root->data) {
+            root->left = remove(root->left, data);
+        }
+        else if (data > root->data) {
+            root->right = remove(root->right, data);
+        }
+        else {
+            // Check if it a leaf.
+            if (root->right == nullptr && root->left == nullptr) {
+                delete root;
+                return nullptr;
+            }
+
+            Node* newNode = getAndRemoveLargestNode(root);
+            if (newNode == nullptr) {
+                // this means that this node doesnt have a right child. so the new node will be the left child.
+                newNode = root->left;
+            }
+            else {
+                newNode->left = root->left;
+                newNode->right = root->right;
+            }
+            delete root;
+            root = balance(newNode);
+        }
+        return root;
+    }
+
+    bool contains(T data, Node* root) {
+        if (root == nullptr) return false;
+        if (data < root->data) {
+            return contains(data, root->left);
+        }
+        else if (data > root->data) {
+            return contains(data, root->right);
+        }
+        return true;
+    }
+
+    void clear(Node* root) {
+        if (root == nullptr) return;
+        clear(root->left);
+        clear(root->right);
+        delete root;
     }
 
     Node* balance(Node* root) {
@@ -165,4 +236,17 @@ private:
         return postorder(node->left, to_string) + postorder(node->right, to_string) + to_string(node->data);
     }
 
+    Node* getAndRemoveLargestNode(Node* root) {
+        auto parent = root;
+        auto child = parent->right;
+        while (child) {
+            if (child->right == nullptr) {
+                parent->right = nullptr;
+                break;
+            }
+            parent = child;
+            child = child->right;
+        }
+        return child;
+    }
 };
