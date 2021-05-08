@@ -48,6 +48,12 @@
     <ClInclude Include="BinarySearchTreeTest.h">
       <Filter>UnitTests\Tree</Filter>
     </ClInclude>
+    <ClInclude Include="ChainingHashingTest.h">
+      <Filter>UnitTests\Hashing</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearProbingHashingTest.h">
+      <Filter>UnitTests\Hashing</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="UnitTests">
@@ -73,6 +79,9 @@
     </Filter>
     <Filter Include="UnitTests\Tree">
       <UniqueIdentifier>{fae45cb7-cb16-4b07-a345-9a9fd1ae1c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\Hashing">
+      <UniqueIdentifier>{3efe1a73-6dfa-4f0a-8ac7-92c2663642b2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

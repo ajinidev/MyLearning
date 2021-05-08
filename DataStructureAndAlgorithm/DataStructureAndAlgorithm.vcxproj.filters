@@ -48,6 +48,15 @@
     <ClInclude Include="Lib\BinarySearchTree.h">
       <Filter>Lib</Filter>
     </ClInclude>
+    <ClInclude Include="Lib\ChainingHashing.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\LinearProbingHashing.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Graph.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

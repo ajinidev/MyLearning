@@ -37,9 +37,11 @@
     <ClInclude Include="ArrayTest.h" />
     <ClInclude Include="BinarySearchTreeTest.h" />
     <ClInclude Include="BracketSymmetryProblemTest.h" />
+    <ClInclude Include="ChainingHashingTest.h" />
     <ClInclude Include="CircularQueueTest.h" />
     <ClInclude Include="DequeTest.h" />
     <ClInclude Include="DoubleLinkedListTest.h" />
+    <ClInclude Include="LinearProbingHashingTest.h" />
     <ClInclude Include="LinkedListTest.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="QueueTest.h" />

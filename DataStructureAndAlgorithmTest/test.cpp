@@ -6,3 +6,5 @@
 #include "StackTest.h"
 #include "QueueTest.h"
 #include "BinarySearchTreeTest.h"
+#include "ChainingHashingTest.h"
+#include "LinearProbingHashingTest.h"
