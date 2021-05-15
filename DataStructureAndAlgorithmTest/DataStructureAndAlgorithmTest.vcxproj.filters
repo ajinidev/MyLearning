@@ -60,6 +60,9 @@
     <ClInclude Include="BinarySearchTest.h">
       <Filter>UnitTests\Tree</Filter>
     </ClInclude>
+    <ClInclude Include="SortingTest.h">
+      <Filter>UnitTests\Sorting</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="UnitTests">
@@ -88,6 +91,9 @@
     </Filter>
     <Filter Include="UnitTests\Hashing">
       <UniqueIdentifier>{3efe1a73-6dfa-4f0a-8ac7-92c2663642b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\Sorting">
+      <UniqueIdentifier>{a98ec3fe-2f58-4d35-aee4-2b1de6270aa2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

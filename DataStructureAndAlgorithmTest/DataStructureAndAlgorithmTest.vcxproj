@@ -48,6 +48,7 @@
     <ClInclude Include="QueueTest.h" />
     <ClInclude Include="QueueWithDoubleLinkedListTest.h" />
     <ClInclude Include="QueueWithLinkedListTest.h" />
+    <ClInclude Include="SortingTest.h" />
     <ClInclude Include="StackTest.h" />
     <ClInclude Include="StackWithDoubleLinkedListTest.h" />
     <ClInclude Include="StackWithLinkedListTest.h" />

@@ -16,6 +16,9 @@
     <Filter Include="Lib">
       <UniqueIdentifier>{899c8d25-8274-459e-b05b-2360b2861de9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Lib\Sorting">
+      <UniqueIdentifier>{21cd5df3-b962-466d-a5cc-1196cf81a4dc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -62,6 +65,18 @@
     </ClInclude>
     <ClInclude Include="Lib\BinarySearch.h">
       <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\BubbleSort.h">
+      <Filter>Lib\Sorting</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\SelectionSort.h">
+      <Filter>Lib\Sorting</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\InsertionSort.h">
+      <Filter>Lib\Sorting</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\QuickSort.h">
+      <Filter>Lib\Sorting</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
