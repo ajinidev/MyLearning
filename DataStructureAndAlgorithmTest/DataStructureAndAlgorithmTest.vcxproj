@@ -50,6 +50,7 @@
     <ClInclude Include="StackTest.h" />
     <ClInclude Include="StackWithDoubleLinkedListTest.h" />
     <ClInclude Include="StackWithLinkedListTest.h" />
+    <ClInclude Include="TrieTest.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BracketSymmetryProblem.h" />

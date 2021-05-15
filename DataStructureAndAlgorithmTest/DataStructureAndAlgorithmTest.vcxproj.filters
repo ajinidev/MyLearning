@@ -54,6 +54,9 @@
     <ClInclude Include="LinearProbingHashingTest.h">
       <Filter>UnitTests\Hashing</Filter>
     </ClInclude>
+    <ClInclude Include="TrieTest.h">
+      <Filter>UnitTests\Tree</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="UnitTests">

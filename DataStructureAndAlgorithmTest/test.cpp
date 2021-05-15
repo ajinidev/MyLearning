@@ -5,6 +5,7 @@
 #include "DoubleLinkedListTest.h"
 #include "StackTest.h"
 #include "QueueTest.h"
-#include "BinarySearchTreeTest.h"
 #include "ChainingHashingTest.h"
 #include "LinearProbingHashingTest.h"
+#include "BinarySearchTreeTest.h"
+#include "TrieTest.h"
