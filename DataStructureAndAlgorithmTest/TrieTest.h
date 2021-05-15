@@ -7,7 +7,7 @@
 struct TrieTestFixture : public testing::Test {
     Trie<int> tester;
     void SetUp() override {
-        tester.setDefaultValue(int(0));
+        tester.setDefaultValue(0);
         auto arr = { "Abhijith", "Ajini", "Athira", "Jyolsna", "Anvi" };
         for (auto item : arr) {
             tester.insert(item, 1);

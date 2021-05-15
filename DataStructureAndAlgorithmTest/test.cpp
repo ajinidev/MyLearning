@@ -9,3 +9,4 @@
 #include "LinearProbingHashingTest.h"
 #include "BinarySearchTreeTest.h"
 #include "TrieTest.h"
+#include "BinarySearchTest.h"

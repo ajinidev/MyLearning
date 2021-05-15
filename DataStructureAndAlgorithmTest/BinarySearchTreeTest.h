@@ -1,10 +1,7 @@
 #pragma once
 #include "pch.h"
-
-
 #include <gtest/gtest.h>
 #include "BinarySearchTree.h"
-
 
 struct BinarySearchTreeTestFixture : public testing::Test {
     BinarySearchTree<int> tester;

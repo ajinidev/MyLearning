@@ -57,6 +57,9 @@
     <ClInclude Include="TrieTest.h">
       <Filter>UnitTests\Tree</Filter>
     </ClInclude>
+    <ClInclude Include="BinarySearchTest.h">
+      <Filter>UnitTests\Tree</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="UnitTests">
