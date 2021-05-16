@@ -1,5 +1,7 @@
 #pragma once
 #include <functional>
+#include "Queue.h"
+#include "LinkedList.h"
 /*
     Tree traversal
         In order    -> Left, Root, Right
@@ -87,6 +89,23 @@ public:
 
     std::string postorder(std::function<std::string(T)> to_string) {
         return postorder(mRoot, to_string);
+    }
+
+    std::string bfsOrder(std::function<std::string(T)> to_string) {
+        Queue<Node*, LinkedList<Node*>> queue;
+        std::string out = "";
+        queue.enqueue(mRoot);
+        while (!queue.isEmpty()) {
+            Node* node = queue.dequeue();
+            if (node->left) {
+                queue.enqueue(node->left);
+            }
+            if (node->right) {
+                queue.enqueue(node->right);
+            }
+            out += to_string(node->data);
+        }
+        return out;
     }
 
 private:

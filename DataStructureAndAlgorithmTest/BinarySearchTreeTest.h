@@ -3,6 +3,14 @@
 #include <gtest/gtest.h>
 #include "BinarySearchTree.h"
 
+/*
+           10
+
+        7       15
+           9        22
+
+ */
+
 struct BinarySearchTreeTestFixture : public testing::Test {
     BinarySearchTree<int> tester;
     void SetUp() override {
@@ -67,4 +75,8 @@ TEST_F(BinarySearchTreeTestFixture, IsEmptyAndClear) {
 
 TEST_F(BinarySearchTreeTestFixture, IsNotEmpty) {
     EXPECT_EQ(false, tester.isEmpty());
+}
+
+TEST_F(BinarySearchTreeTestFixture, BFS) {
+    EXPECT_EQ("10715922", tester.bfsOrder(to_string));
 }
