@@ -38,6 +38,7 @@
     <ClInclude Include="001-TwoSum.h" />
     <ClInclude Include="003-MaxStack.h" />
     <ClInclude Include="004-ReverseLinkedList.h" />
+    <ClInclude Include="005-TreeConstruction.h" />
     <ClInclude Include="ArrayTest.h" />
     <ClInclude Include="BinarySearchTest.h" />
     <ClInclude Include="BinarySearchTreeTest.h" />
