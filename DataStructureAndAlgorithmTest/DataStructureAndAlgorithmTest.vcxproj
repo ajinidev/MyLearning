@@ -34,7 +34,9 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
+    <ClInclude Include="002-MinStack.h" />
     <ClInclude Include="001-TwoSum.h" />
+    <ClInclude Include="003-MaxStack.h" />
     <ClInclude Include="ArrayTest.h" />
     <ClInclude Include="BinarySearchTest.h" />
     <ClInclude Include="BinarySearchTreeTest.h" />

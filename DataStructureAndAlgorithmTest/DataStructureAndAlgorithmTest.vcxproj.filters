@@ -72,6 +72,12 @@
     <ClInclude Include="001-TwoSum.h">
       <Filter>Problems</Filter>
     </ClInclude>
+    <ClInclude Include="002-MinStack.h">
+      <Filter>Problems</Filter>
+    </ClInclude>
+    <ClInclude Include="003-MaxStack.h">
+      <Filter>Problems</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="UnitTests">
