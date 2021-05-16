@@ -159,6 +159,7 @@
     <ClInclude Include="lib\InsertionSort.h" />
     <ClInclude Include="Lib\LinearProbingHashing.h" />
     <ClInclude Include="Lib\LinkedList.h" />
+    <ClInclude Include="lib\MergeSort.h" />
     <ClInclude Include="Lib\Queue.h" />
     <ClInclude Include="lib\QuickSort.h" />
     <ClInclude Include="lib\SelectionSort.h" />

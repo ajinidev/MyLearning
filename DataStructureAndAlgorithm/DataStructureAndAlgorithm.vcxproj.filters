@@ -78,6 +78,9 @@
     <ClInclude Include="lib\QuickSort.h">
       <Filter>Lib\Sorting</Filter>
     </ClInclude>
+    <ClInclude Include="lib\MergeSort.h">
+      <Filter>Lib\Sorting</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
