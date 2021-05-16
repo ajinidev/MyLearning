@@ -60,3 +60,8 @@ TEST_F(DoubleLinkedListTestFixture, Clear) {
     testArr.clear();
     EXPECT_EQ("", testArr.to_string(to_string));
 }
+
+TEST_F(DoubleLinkedListTestFixture, Reverse) {
+    testArr.reverse();
+    EXPECT_EQ("92215710", testArr.to_string(to_string));
+}

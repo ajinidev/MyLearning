@@ -78,6 +78,9 @@
     <ClInclude Include="003-MaxStack.h">
       <Filter>Problems</Filter>
     </ClInclude>
+    <ClInclude Include="004-ReverseLinkedList.h">
+      <Filter>Problems</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="UnitTests">

@@ -1,5 +1,6 @@
 #pragma once
 #include <functional>
+#include <stack>
 
 template <class T>
 class LinkedList {
@@ -120,6 +121,25 @@ public:
             cur = cur->pNext;
         }
         return str;
+    }
+
+    void reverse() {
+        Node* node = mHead;
+        std::stack<Node*> stack;
+        while (node) {
+            stack.push(node);
+            node = node->pNext;
+        }
+        node = stack.top();
+        auto head = node;
+        stack.pop();
+        while (!stack.empty()) {
+            node->pNext = stack.top();
+            node = node->pNext;
+            node->pNext = nullptr;
+            stack.pop();
+        }
+        mHead = head;
     }
 
 private:

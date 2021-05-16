@@ -136,6 +136,21 @@ public:
         mTail = nullptr;
     }
 
+    void reverse() {
+        Node* current = mHead;
+        Node* prev = nullptr;
+        while (current != nullptr) {
+            Node* temp = current->pPrev;
+            current->pPrev = current->pNext;
+            current->pNext = temp;
+            prev = current;
+            current = current->pPrev;
+        }
+        prev->pPrev = nullptr;
+        mHead->pNext = nullptr;
+        mHead = prev;
+    }
+
 private:
     Node* getLastNode() {
         return mTail;

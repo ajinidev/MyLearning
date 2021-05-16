@@ -50,3 +50,8 @@ TEST_F(LinkeListTestFixture, Clear) {
     testArr.clear();
     EXPECT_EQ("", testArr.to_string(to_string));
 }
+
+TEST_F(LinkeListTestFixture, Reverse) {
+    testArr.reverse();
+    EXPECT_EQ("92215710", testArr.to_string(to_string));
+}
