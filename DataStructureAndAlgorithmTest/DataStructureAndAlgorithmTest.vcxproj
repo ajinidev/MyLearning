@@ -40,6 +40,7 @@
     <ClInclude Include="004-ReverseLinkedList.h" />
     <ClInclude Include="005-TreeConstruction.h" />
     <ClInclude Include="006-FlipTree.h" />
+    <ClInclude Include="007-BSTFromPreOrder.h" />
     <ClInclude Include="ArrayTest.h" />
     <ClInclude Include="BinarySearchTest.h" />
     <ClInclude Include="BinarySearchTreeTest.h" />

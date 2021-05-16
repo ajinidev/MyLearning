@@ -87,6 +87,9 @@
     <ClInclude Include="006-FlipTree.h">
       <Filter>Problems</Filter>
     </ClInclude>
+    <ClInclude Include="007-BSTFromPreOrder.h">
+      <Filter>Problems</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="UnitTests">
