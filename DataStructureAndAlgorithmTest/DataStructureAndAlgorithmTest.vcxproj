@@ -42,6 +42,7 @@
     <ClInclude Include="CircularQueueTest.h" />
     <ClInclude Include="DequeTest.h" />
     <ClInclude Include="DoubleLinkedListTest.h" />
+    <ClInclude Include="GraphTest.h" />
     <ClInclude Include="LinearProbingHashingTest.h" />
     <ClInclude Include="LinkedListTest.h" />
     <ClInclude Include="pch.h" />

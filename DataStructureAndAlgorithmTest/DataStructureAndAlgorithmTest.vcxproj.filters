@@ -63,6 +63,9 @@
     <ClInclude Include="SortingTest.h">
       <Filter>UnitTests\Sorting</Filter>
     </ClInclude>
+    <ClInclude Include="GraphTest.h">
+      <Filter>UnitTests\Tree</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="UnitTests">

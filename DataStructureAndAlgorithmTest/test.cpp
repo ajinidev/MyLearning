@@ -11,3 +11,4 @@
 #include "TrieTest.h"
 #include "BinarySearchTest.h"
 #include "SortingTest.h"
+#include "GraphTest.h"
