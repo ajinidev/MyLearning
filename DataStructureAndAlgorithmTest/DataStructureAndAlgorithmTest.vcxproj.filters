@@ -84,6 +84,9 @@
     <ClInclude Include="005-TreeConstruction.h">
       <Filter>Problems</Filter>
     </ClInclude>
+    <ClInclude Include="006-FlipTree.h">
+      <Filter>Problems</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="UnitTests">

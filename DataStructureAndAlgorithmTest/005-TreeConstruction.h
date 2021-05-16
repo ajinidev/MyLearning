@@ -5,16 +5,13 @@
 #include <unordered_map>
 
 template <class T>
-class TreeConstruction : Tree<T> {
+class TreeConstruction : public Tree<T> {
 
 public:
-    std::string buildPreorderInorder(std::vector<T> preorder, std::vector<T> inorder,
-        std::function<std::string(T)> to_string) {
+    void buildPreorderInorderNormal(std::vector<T> preorder, std::vector<T> inorder) {
         mRoot = buildPreorderInorder(preorder, inorder);
-        return this->inorder(to_string);
     }
-    std::string buildPreorderInorder_memoryEfficient(std::vector<T> preorder, std::vector<T> inorder,
-        std::function<std::string(T)> to_string) {
+    void buildPreorderInorder_memoryEfficient(std::vector<T> preorder, std::vector<T> inorder) {
         std::unordered_map<T, int> map;
         if (inorder.size() != preorder.size()) {
             throw "Invalid input.";
@@ -25,7 +22,6 @@ public:
             preOrderReversed.push_back(preorder[preorder.size() - 1 -i]);
         }
         mRoot = buildPreorderInorder(preOrderReversed, 0, preOrderReversed.size(), map);
-        return this->inorder(to_string);
     }
 private:
     Node* buildPreorderInorder(std::vector<T>& preorder, std::vector<T> inorder) {
@@ -84,7 +80,8 @@ TEST_F(TreeConstructionTestFixture, FromInorderAndPreOrder) {
         preorder.push_back(item);
     }
     auto inorder = { 8,4,9,2,10,5,11,1,6,3,7 };
-    EXPECT_EQ("8492105111637", tester.buildPreorderInorder(preorder, inorder, to_string));
+    tester.buildPreorderInorderNormal(preorder, inorder);
+    EXPECT_EQ("8492105111637", tester.inorder(to_string));
 }
 
 TEST_F(TreeConstructionTestFixture, FromInorderAndPreOrder_memoryEfficient) {
@@ -93,5 +90,6 @@ TEST_F(TreeConstructionTestFixture, FromInorderAndPreOrder_memoryEfficient) {
         preorder.push_back(item);
     }
     auto inorder = { 8,4,9,2,10,5,11,1,6,3,7 };
-    EXPECT_EQ("8492105111637", tester.buildPreorderInorder_memoryEfficient(preorder, inorder, to_string));
+    tester.buildPreorderInorder_memoryEfficient(preorder, inorder);
+    EXPECT_EQ("8492105111637", tester.inorder(to_string));
 }

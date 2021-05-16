@@ -16,10 +16,15 @@ protected:
             data = d;
         }
     };
-
     Node* mRoot = nullptr;
 
 public:
+    Node* getRoot() { return mRoot; }
+    void setTreeRoot(Node* root) {
+        clear(mRoot);
+        mRoot = root;
+    }
+
     std::string preorder(std::function<std::string(T)> to_string) {
         return preorder(mRoot, to_string);
     }
