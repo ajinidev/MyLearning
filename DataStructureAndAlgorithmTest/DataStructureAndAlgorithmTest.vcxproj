@@ -34,6 +34,7 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
+    <ClInclude Include="001-TwoSum.h" />
     <ClInclude Include="ArrayTest.h" />
     <ClInclude Include="BinarySearchTest.h" />
     <ClInclude Include="BinarySearchTreeTest.h" />
@@ -46,6 +47,7 @@
     <ClInclude Include="LinearProbingHashingTest.h" />
     <ClInclude Include="LinkedListTest.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Questions.h" />
     <ClInclude Include="QueueTest.h" />
     <ClInclude Include="QueueWithDoubleLinkedListTest.h" />
     <ClInclude Include="QueueWithLinkedListTest.h" />
