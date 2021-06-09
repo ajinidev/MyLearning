@@ -90,6 +90,9 @@
     <ClInclude Include="007-BSTFromPreOrder.h">
       <Filter>Problems</Filter>
     </ClInclude>
+    <ClInclude Include="008-MergeKLinkedLists.h">
+      <Filter>Problems</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="UnitTests">
