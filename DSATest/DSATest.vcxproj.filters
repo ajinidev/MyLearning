@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="..\DataStructureAndAlgorithmTest\BracketSymmetryProblem.cpp">
+      <Filter>UnitTests\Stack\Problems</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\002-MinStack.cpp">
+      <Filter>Problems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\001-TwoSum.cpp">
+      <Filter>Problems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\003-MaxStack.cpp">
+      <Filter>Problems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\004-ReverseLinkedList.cpp">
+      <Filter>Problems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\005-TreeConstruction.cpp">
+      <Filter>Problems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\006-FlipTree.cpp">
+      <Filter>Problems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\007-BSTFromPreOrder.cpp">
+      <Filter>Problems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\008-MergeKLinkedLists.cpp">
+      <Filter>Problems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\ArrayTest.cpp">
+      <Filter>UnitTests\Arrays</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\DoubleLinkedListTest.cpp">
+      <Filter>UnitTests\LinkedLists</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\LinkedListTest.cpp">
+      <Filter>UnitTests\LinkedLists</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\StackTest.cpp">
+      <Filter>UnitTests\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\StackWithDoubleLinkedListTest.cpp">
+      <Filter>UnitTests\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\StackWithLinkedListTest.cpp">
+      <Filter>UnitTests\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\BracketSymmetryProblemTest.cpp">
+      <Filter>UnitTests\Stack\Problems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\CircularQueueTest.cpp">
+      <Filter>UnitTests\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\DequeTest.cpp">
+      <Filter>UnitTests\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\QueueTest.cpp">
+      <Filter>UnitTests\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\QueueWithDoubleLinkedListTest.cpp">
+      <Filter>UnitTests\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\QueueWithLinkedListTest.cpp">
+      <Filter>UnitTests\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\BinarySearchTest.cpp">
+      <Filter>UnitTests\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\BinarySearchTreeTest.cpp">
+      <Filter>UnitTests\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\GraphTest.cpp">
+      <Filter>UnitTests\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\TrieTest.cpp">
+      <Filter>UnitTests\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\ChainingHashingTest.cpp">
+      <Filter>UnitTests\Hashing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\LinearProbingHashingTest.cpp">
+      <Filter>UnitTests\Hashing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\SortingTest.cpp">
+      <Filter>UnitTests\Sorting</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Problems">
+      <UniqueIdentifier>{3c793973-c744-4661-8ef5-25aebaca1605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests">
+      <UniqueIdentifier>{250af590-ef25-4d30-9e17-ecfa65578c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\BigO">
+      <UniqueIdentifier>{ce862858-4b89-403b-8c68-b14785b69add}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\Arrays">
+      <UniqueIdentifier>{0475c431-2c81-44ee-9797-fa3bd07307a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\LinkedLists">
+      <UniqueIdentifier>{4e0555a2-6b24-4f3f-b622-33e17dbd7755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\Stack">
+      <UniqueIdentifier>{8e338194-be15-467f-89cb-5fdf5ce8528c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\Stack\Problems">
+      <UniqueIdentifier>{e662d661-ee68-4926-a5d7-bedb094a80cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\Queue">
+      <UniqueIdentifier>{d0cb7402-028b-44a4-a5b0-845944235d24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\Tree">
+      <UniqueIdentifier>{ccfa7065-e6ef-40ec-8708-b3be97b46218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\Hashing">
+      <UniqueIdentifier>{b867a54e-d9d2-4ce8-81cd-2b92c8ce53f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\Sorting">
+      <UniqueIdentifier>{f6febbf2-9e74-4267-a325-daf6b39ee1cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\DataStructureAndAlgorithmTest\Notes.txt">
+      <Filter>UnitTests\BigO</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

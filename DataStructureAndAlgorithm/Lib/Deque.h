@@ -1,5 +1,7 @@
 #pragma once
 
+#include <functional>
+
 /*
  It is a combination of both queue and a stack.
  there are two types of deque. 

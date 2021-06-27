@@ -3,6 +3,7 @@
 #include "pch.h"
 #include "Stack.h"
 #include "LinkedList.h"
+#include <gtest/gtest.h>
 
 class BracketSymmetryProblem {
 
@@ -35,3 +36,14 @@ private:
         }
     }
 };
+
+
+TEST(BracketSymmetryProblem, Pass) {
+    BracketSymmetryProblem tester;
+    EXPECT_EQ(false, tester.isValidBrackets("[{})[]"));
+}
+
+TEST(BracketSymmetryProblem, Fail) {
+    BracketSymmetryProblem tester;
+    EXPECT_EQ(true, tester.isValidBrackets("[[{}]()]"));
+}

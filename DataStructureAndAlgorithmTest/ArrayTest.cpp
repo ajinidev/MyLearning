@@ -1,6 +1,5 @@
 #pragma once
 #include "pch.h"
-#include <gtest/gtest.h>
 #include "Array.h"
 
 struct ArrayTestFixture : public testing::Test {

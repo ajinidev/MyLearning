@@ -19,13 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{e7fd96ac-7689-47ad-bd90-280b6f2388bd}</ProjectGuid>
+    <ProjectGuid>{9d661aa4-6235-4b36-a24e-1bc80fc40e06}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
     <ConfigurationType>Application</ConfigurationType>
     <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
-    <ProjectName>DataStructureAndAlgorithmTest</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
@@ -35,34 +34,37 @@
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
     <ClInclude Include="pch.h" />
-    <ClInclude Include="TreeConstruction.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LC-0001-TwoSum.cpp" />
-    <ClCompile Include="LC-0155-MinStack.cpp" />
-    <ClCompile Include="LC-0716-MaxStack.cpp" />
-    <ClCompile Include="LC-0092-ReverseLinkedList.cpp" />
-    <ClCompile Include="LC-0105-TreeConstruction.cpp" />
-    <ClCompile Include="LC-0951-FlipTree.cpp" />
-    <ClCompile Include="LC-0889-BSTFromPreOrder.cpp" />
-    <ClCompile Include="LC-0023-MergeKLinkedLists.cpp" />
-    <ClCompile Include="ArrayTest.cpp" />
-    <ClCompile Include="BinarySearchTest.cpp" />
-    <ClCompile Include="BinarySearchTreeTest.cpp" />
-    <ClCompile Include="BracketSymmetryProblem.cpp" />
-    <ClCompile Include="ChainingHashingTest.cpp" />
-    <ClCompile Include="CircularQueueTest.cpp" />
-    <ClCompile Include="DequeTest.cpp" />
-    <ClCompile Include="DoubleLinkedListTest.cpp" />
-    <ClCompile Include="GraphTest.cpp" />
-    <ClCompile Include="LinearProbingHashingTest.cpp" />
-    <ClCompile Include="LinkedListTest.cpp" />
-    <ClCompile Include="QueueWithDoubleLinkedListTest.cpp" />
-    <ClCompile Include="QueueWithLinkedListTest.cpp" />
-    <ClCompile Include="SortingTest.cpp" />
-    <ClCompile Include="StackWithDoubleLinkedListTest.cpp" />
-    <ClCompile Include="StackWithLinkedListTest.cpp" />
-    <ClCompile Include="TrieTest.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\002-MinStack.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\001-TwoSum.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\003-MaxStack.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\004-ReverseLinkedList.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\005-TreeConstruction.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\006-FlipTree.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\007-BSTFromPreOrder.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\008-MergeKLinkedLists.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\ArrayTest.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\DoubleLinkedListTest.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\LinkedListTest.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\StackTest.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\StackWithDoubleLinkedListTest.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\StackWithLinkedListTest.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\BinarySearchTest.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\BinarySearchTreeTest.cpp" />
+    <ClCompile Include="..\DataStructureAndAlgorithmTest\BracketSymmetryProblem.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\BracketSymmetryProblemTest.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\CircularQueueTest.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\DequeTest.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\QueueTest.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\QueueWithDoubleLinkedListTest.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\QueueWithLinkedListTest.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\GraphTest.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\TrieTest.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\ChainingHashingTest.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\LinearProbingHashingTest.cpp" />
+    <ClInclude Include="..\DataStructureAndAlgorithmTest\SortingTest.cpp" />
+    <ClCompile Include="test.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -71,15 +73,15 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="Arrays\Static\Notes.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\DataStructureAndAlgorithm\DataStructureAndAlgorithm.vcxproj">
       <Project>{14ec2bdc-79c9-42a1-ad5c-b40938d12998}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\DataStructureAndAlgorithmTest\Notes.txt" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
@@ -96,7 +98,6 @@
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)include;$(SolutionDir)\DataStructureAndAlgorithm\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -128,7 +129,6 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)include;$(SolutionDir)\DataStructureAndAlgorithm\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
