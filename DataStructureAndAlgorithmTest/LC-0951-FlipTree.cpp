@@ -1,7 +1,6 @@
 #pragma once
 
 #include "pch.h"
-#include <gtest/gtest.h>
 #include "TreeConstruction.h"
 #include "BinarySearchTree.h"
 #include <unordered_map>

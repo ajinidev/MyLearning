@@ -1,7 +1,6 @@
 #pragma once
 #include "pch.h"
 #include <vector>
-#include <gtest/gtest.h>
 #include "Tree.h"
 #include <unordered_map>
 #include "TreeConstruction.h"

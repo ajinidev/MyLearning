@@ -1,6 +1,5 @@
 #pragma once
 #include "pch.h"
-#include <gtest/gtest.h>
 #include "Tree.h"
 #include <stack>
 

@@ -1,6 +1,5 @@
 #pragma once
 #include "pch.h"
-#include <gtest/gtest.h>
 
 /*
  Implement a container which will return the maximum value from a stack.
