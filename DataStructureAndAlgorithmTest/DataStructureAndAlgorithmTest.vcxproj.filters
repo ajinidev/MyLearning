@@ -77,6 +77,24 @@
     <ClCompile Include="LC-0889-BSTFromPreOrder.cpp">
       <Filter>Problems-LeetCode</Filter>
     </ClCompile>
+    <ClCompile Include="LC-0007-ReverseInteger.cpp">
+      <Filter>Problems-LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LC-0026-RemoveDuplicates.cpp">
+      <Filter>Problems-LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LC-0027-RemoveElement.cpp">
+      <Filter>Problems-LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LC-0035-Search Insert Position.cpp">
+      <Filter>Problems-LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LC-0036-Valid Sudoku.cpp">
+      <Filter>Problems-LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LC-0041-First Missing Positive.cpp">
+      <Filter>Problems-LeetCode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />

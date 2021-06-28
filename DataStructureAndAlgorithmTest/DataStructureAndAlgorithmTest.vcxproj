@@ -39,6 +39,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LC-0001-TwoSum.cpp" />
+    <ClCompile Include="LC-0007-ReverseInteger.cpp" />
+    <ClCompile Include="LC-0026-RemoveDuplicates.cpp" />
+    <ClCompile Include="LC-0027-RemoveElement.cpp" />
+    <ClCompile Include="LC-0035-Search Insert Position.cpp" />
+    <ClCompile Include="LC-0036-Valid Sudoku.cpp" />
+    <ClCompile Include="LC-0041-First Missing Positive.cpp" />
     <ClCompile Include="LC-0155-MinStack.cpp" />
     <ClCompile Include="LC-0716-MaxStack.cpp" />
     <ClCompile Include="LC-0092-ReverseLinkedList.cpp" />
