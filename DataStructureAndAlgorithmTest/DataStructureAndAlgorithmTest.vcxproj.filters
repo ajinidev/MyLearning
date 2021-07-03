@@ -95,6 +95,21 @@
     <ClCompile Include="LC-0041-First Missing Positive.cpp">
       <Filter>Problems-LeetCode</Filter>
     </ClCompile>
+    <ClCompile Include="LC-0005-LongestPalindrome.cpp">
+      <Filter>Problems-LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LC-0006-ZigZag Conversion.cpp">
+      <Filter>Problems-LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LC-1047-Remove All Adjacent Duplicates In String.cpp">
+      <Filter>Problems-LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LC-0792-Number of Matching Subsequences.cpp">
+      <Filter>Problems-LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LC-0092-Reverse Linked List II.cpp">
+      <Filter>Problems-LeetCode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />

@@ -39,16 +39,20 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LC-0001-TwoSum.cpp" />
+    <ClCompile Include="LC-0005-LongestPalindrome.cpp" />
+    <ClCompile Include="LC-0006-ZigZag Conversion.cpp" />
     <ClCompile Include="LC-0007-ReverseInteger.cpp" />
     <ClCompile Include="LC-0026-RemoveDuplicates.cpp" />
     <ClCompile Include="LC-0027-RemoveElement.cpp" />
     <ClCompile Include="LC-0035-Search Insert Position.cpp" />
     <ClCompile Include="LC-0036-Valid Sudoku.cpp" />
     <ClCompile Include="LC-0041-First Missing Positive.cpp" />
+    <ClCompile Include="LC-0092-Reverse Linked List II.cpp" />
     <ClCompile Include="LC-0155-MinStack.cpp" />
     <ClCompile Include="LC-0716-MaxStack.cpp" />
     <ClCompile Include="LC-0092-ReverseLinkedList.cpp" />
     <ClCompile Include="LC-0105-TreeConstruction.cpp" />
+    <ClCompile Include="LC-0792-Number of Matching Subsequences.cpp" />
     <ClCompile Include="LC-0951-FlipTree.cpp" />
     <ClCompile Include="LC-0889-BSTFromPreOrder.cpp" />
     <ClCompile Include="LC-0023-MergeKLinkedLists.cpp" />
@@ -61,6 +65,7 @@
     <ClCompile Include="DequeTest.cpp" />
     <ClCompile Include="DoubleLinkedListTest.cpp" />
     <ClCompile Include="GraphTest.cpp" />
+    <ClCompile Include="LC-1047-Remove All Adjacent Duplicates In String.cpp" />
     <ClCompile Include="LinearProbingHashingTest.cpp" />
     <ClCompile Include="LinkedListTest.cpp" />
     <ClCompile Include="QueueWithDoubleLinkedListTest.cpp" />
