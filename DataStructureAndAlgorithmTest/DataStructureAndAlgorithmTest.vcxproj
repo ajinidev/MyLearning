@@ -42,6 +42,8 @@
     <ClCompile Include="LC-0005-LongestPalindrome.cpp" />
     <ClCompile Include="LC-0006-ZigZag Conversion.cpp" />
     <ClCompile Include="LC-0007-ReverseInteger.cpp" />
+    <ClCompile Include="LC-0014-Longest Common Prefix.cpp" />
+    <ClCompile Include="LC-0015. 3Sum.cpp" />
     <ClCompile Include="LC-0026-RemoveDuplicates.cpp" />
     <ClCompile Include="LC-0027-RemoveElement.cpp" />
     <ClCompile Include="LC-0035-Search Insert Position.cpp" />

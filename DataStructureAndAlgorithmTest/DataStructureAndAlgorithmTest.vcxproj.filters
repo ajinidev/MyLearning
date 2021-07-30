@@ -110,6 +110,12 @@
     <ClCompile Include="LC-0092-Reverse Linked List II.cpp">
       <Filter>Problems-LeetCode</Filter>
     </ClCompile>
+    <ClCompile Include="LC-0014-Longest Common Prefix.cpp">
+      <Filter>Problems-LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LC-0015. 3Sum.cpp">
+      <Filter>Problems-LeetCode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
