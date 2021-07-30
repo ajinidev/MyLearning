@@ -70,6 +70,7 @@
     <ClCompile Include="LC-1047-Remove All Adjacent Duplicates In String.cpp" />
     <ClCompile Include="LinearProbingHashingTest.cpp" />
     <ClCompile Include="LinkedListTest.cpp" />
+    <ClCompile Include="N-QueensProblem.cpp" />
     <ClCompile Include="QueueWithDoubleLinkedListTest.cpp" />
     <ClCompile Include="QueueWithLinkedListTest.cpp" />
     <ClCompile Include="SortingTest.cpp" />

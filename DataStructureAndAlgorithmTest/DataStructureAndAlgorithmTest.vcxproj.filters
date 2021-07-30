@@ -116,6 +116,9 @@
     <ClCompile Include="LC-0015. 3Sum.cpp">
       <Filter>Problems\LeetCode</Filter>
     </ClCompile>
+    <ClCompile Include="N-QueensProblem.cpp">
+      <Filter>Problems\Backtracking</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -138,6 +141,9 @@
     </Filter>
     <Filter Include="Problems\LeetCode">
       <UniqueIdentifier>{49c864b7-23cd-4570-98b3-927166cd66f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problems\Backtracking">
+      <UniqueIdentifier>{b29656af-273e-4b78-bbd9-e53d94b318a6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
