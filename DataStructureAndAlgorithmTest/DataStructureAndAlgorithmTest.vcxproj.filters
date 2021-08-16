@@ -116,7 +116,10 @@
     <ClCompile Include="LC-0015. 3Sum.cpp">
       <Filter>Problems\LeetCode</Filter>
     </ClCompile>
-    <ClCompile Include="N-QueensProblem.cpp">
+    <ClCompile Include="001 - NQueensProblem.cpp">
+      <Filter>Problems\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="002 - HamiltonianCycle.cpp">
       <Filter>Problems\Backtracking</Filter>
     </ClCompile>
   </ItemGroup>

@@ -38,6 +38,7 @@
     <ClInclude Include="TreeConstruction.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="002 - HamiltonianCycle.cpp" />
     <ClCompile Include="LC-0001-TwoSum.cpp" />
     <ClCompile Include="LC-0005-LongestPalindrome.cpp" />
     <ClCompile Include="LC-0006-ZigZag Conversion.cpp" />
@@ -70,7 +71,7 @@
     <ClCompile Include="LC-1047-Remove All Adjacent Duplicates In String.cpp" />
     <ClCompile Include="LinearProbingHashingTest.cpp" />
     <ClCompile Include="LinkedListTest.cpp" />
-    <ClCompile Include="N-QueensProblem.cpp" />
+    <ClCompile Include="001 - NQueensProblem.cpp" />
     <ClCompile Include="QueueWithDoubleLinkedListTest.cpp" />
     <ClCompile Include="QueueWithLinkedListTest.cpp" />
     <ClCompile Include="SortingTest.cpp" />
